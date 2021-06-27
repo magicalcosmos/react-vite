@@ -8,4 +8,4 @@ module.exports = Object.assign({
   WS_ENDPOINT: (W: any) => {
     return `ws://${W.location.host.split(':')[0]}/elephant/api/v1/ws`;
   }
-}, SSO)
+}, SSO);

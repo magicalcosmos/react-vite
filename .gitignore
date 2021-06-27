@@ -29,4 +29,6 @@ tags/**
 dist
 dist-ssr
 *.local
+local.env.js
+local.env.ts
 

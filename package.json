@@ -14,7 +14,16 @@
     "clear": "rimraf dist",
     "lint": "eslint src/** --no-error-on-unmatched-pattern --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint --fix src/** --no-error-on-unmatched-pattern --ext .js,.jsx,.ts,.tsx",
-    "test": "react-scripts test"
+    "test:dev": "RUN_ENV=rdev react-scripts test --watchAll=false",
+    "test:test": "RUN_ENV=rtest react-scripts test --watchAll=false",
+    "test:staging": "RUN_ENV=rstaging react-scripts test --watchAll=false",
+    "test:prod": "RUN_ENV=prod react-scripts test --watchAll=false",
+    "test:watch": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    "test:reporter": "npm run test -- --coverage",
+    "ci:test": "CI=true npm run test",
+    "ci:deploy": "CI=true npm run deploy",
+    "ci:ilock": "npm run ci:test && npm run ci:deploy"
   },
   "dependencies": {
     "@loadable/component": "^5.15.0",
