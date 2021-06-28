@@ -1,10 +1,118 @@
 * SmartRocket iLockVerifier Fronend
 ** Profile
-this project is for iLockVerifier and use key skills: react, vite, mobx,
-axios, typescript
+this project is for iLockVerifier and use key skills: react17, vite2, mobx6,
+axios, typescript,react testing library
+
+!important: we should add unit test for each component, all test files are
+suffix with '.test.'.
+** Project stuctures
+  |- configuration
+  |- src
+  |---- api
+  |---- component
+  |---- i18n
+  |---- interface
+  |---- layouts
+  |---- lib
+  |---- pwa
+  |---- routes
+  |---- schemas
+  |---- store
+  |---- theme
+  |---- utils
+  |---- views
+  |---- App.tsx
+  |---- css.d.ts
+  |---- main.tsx 
+  |---- react-app-env.d.ts
+  |---- react-i18next.d.ts
+  |---- reportWeb.tsx
+  |---- setupTests.tsx
+  |---- vite-env.d.ts
+  |- static
+  |---- iconfont 
+  |- .editorconfig
+  |- .eslintignore
+  |- .eslintrc.jsx
+  |- .gitignore
+  |- .huskrc
+  |- .travis.yml
+  |- index.html
+  |- Makefile 
+  |- package.json 
+  |- prettierrc 
+  |- README.org 
+  |- tsconfig.json 
+
+
+** Environment variables
 
 ** Build setup
   - Development environment
   #+BEGIN_SRC shell
    npm run r:dev
   #+END_SRC
+  - Test environment
+  #+BEGIN_SRC shell
+   npm run r:test
+  #+END_SRC
+  - Staging environment
+  #+BEGIN_SRC shell
+   npm run r:staging
+  #+END_SRC
+  - Package program
+  #+BEGIN_SRC shell
+   npm run deploy
+   or
+   make
+  #+END_SRC
+  - Format code style 
+  #+BEGIN_SRC shell
+   npm run lint
+  #+END_SRC
+  - Format code style with fix solution
+  #+BEGIN_SRC shell
+   npm run lint:fix
+  #+END_SRC
+  - Test in development environment
+  #+BEGIN_SRC shell
+   npm run test:dev
+  #+END_SRC
+  - Test in test environment
+  #+BEGIN_SRC shell
+   npm run test:test
+  #+END_SRC
+  - Test in staging environment
+  #+BEGIN_SRC shell
+   npm run test:test
+  #+END_SRC
+  - Test in production environment
+  #+BEGIN_SRC shell
+   npm run test:prod
+  #+END_SRC
+  - Test in development environment, and watching all test case
+  #+BEGIN_SRC shell
+   npm run test:watch
+  #+END_SRC
+  - Test in development environment, and debug width chrome.After run below
+    command and open chrome, input about:inspect
+  #+BEGIN_SRC shell
+   npm run test:debug
+  #+END_SRC
+  - Test width reporter 
+  #+BEGIN_SRC shell
+   npm run test:reporter
+  #+END_SRC
+  - CI test for production
+  #+BEGIN_SRC shell
+   npm run ci:test
+  #+END_SRC
+  - CI deploy for production
+  #+BEGIN_SRC shell
+   npm run ci:deploy
+  #+END_SRC
+  - CI test and CI deploy for production
+  #+BEGIN_SRC shell
+   npm run ci:ilock
+  #+END_SRC
+
