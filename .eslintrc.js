@@ -12,6 +12,12 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         // "plugin:prettier/recommended"
     ],
+    "overrides": [
+      {
+        "files": ["**/*.test.ts", "**/*.test.tsx"],
+        "env": { "jest": true }
+      }
+    ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
@@ -27,7 +33,6 @@ module.exports = {
         "react",
         "@typescript-eslint"
     ],
-    "ignorePatterns": ["**/*/*.test.tsx", "**/*/*.test.jsx"],
     "settings": {
       "react": {
         "createClass": "createReactClass", // Regex for Component Factory to use,
@@ -67,24 +72,9 @@ module.exports = {
 
           // Choose from one of the "project" configs below or omit to use <root>/tsconfig.json by default
 
-          // use <root>/path/to/folder/tsconfig.json
-          "project": "path/to/folder",
-
-          // Multiple tsconfigs (Useful for monorepos)
-
-          // use a glob pattern
-          "project": "packages/*/tsconfig.json",
-
           // use an array
           "project": [
-            "packages/module-a/tsconfig.json",
-            "packages/module-b/tsconfig.json"
-          ],
-
-          // use an array of glob patterns
-          "project": [
-            "packages/*/tsconfig.json",
-            "other-packages/*/tsconfig.json"
+            "./src/tsconfig.json"
           ]
         }
       }

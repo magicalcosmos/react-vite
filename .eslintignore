@@ -4,5 +4,3 @@
 /dist
 /adminDist
 /.cache
-**/*/*.test.jsx
-**/*/*.test.tsx
