@@ -12,8 +12,7 @@ suffix with '.test.'.
   |---- rdev.env.js | staging environment API configuration |
   |---- rstaging.env.js | staging environment API configuration |
   |---- rtest.env.js | test environment API configuration |
-  |---- sample.env.js | sample environment API configuration for local
-  developer |
+  |---- sample.env.js | sample environment API configuration for local developer |
   |-- vite.config.base.ts | common vite config |
   |-- vite.config.dev.ts | development vite config |
   |-- vite.config.prod.ts | production vite config |
