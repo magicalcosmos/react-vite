@@ -1,11 +1,12 @@
-* SmartRocket iLockVerifier Fronend
-** Profile
+
+* [[file:http://10.88.223.155:9093/iLock.png]]SmartRocket iLockVerifier Fronend
+** Description
 This project is for iLockVerifier and use key skills: react17, vite2, mobx6,
 axios, typescript,react testing library
 
 Note: we should add unit test for each component, all test files are
 suffix with '.test.'.
-** Project stucture
+** Stucture
   | configuration | API environment and vite compile environment |
   |--- env | API environment directory |
   |------ prod.env.js | production environment API configuration |
@@ -73,7 +74,7 @@ suffix with '.test.'.
   - Package program
   #+BEGIN_SRC shell
    npm run deploy
-   or
+   # or
    make
   #+END_SRC
   - Format code style 
