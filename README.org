@@ -1,0 +1,10 @@
+* SmartRocket iLockVerifier Fronend
+** Profile
+this project is for iLockVerifier and use key skills: react, vite, mobx,
+axios, typescript
+
+** Build setup
+  - Development environment
+  #+BEGIN_SRC shell
+   npm run r:dev
+  #+END_SRC
