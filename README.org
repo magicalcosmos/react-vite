@@ -7,42 +7,47 @@ axios, typescript,react testing library
 suffix with '.test.'.
 ** Project stuctures
   |- configuration
-  |- src
-  |---- api
-  |---- component
-  |---- i18n
-  |---- interface
-  |---- layouts
-  |---- lib
-  |---- pwa
-  |---- routes
-  |---- schemas
-  |---- store
-  |---- theme
-  |---- utils
-  |---- views
-  |---- App.tsx
-  |---- css.d.ts
-  |---- main.tsx 
-  |---- react-app-env.d.ts
-  |---- react-i18next.d.ts
-  |---- reportWeb.tsx
-  |---- setupTests.tsx
-  |---- vite-env.d.ts
-  |- static
-  |---- iconfont 
-  |- .editorconfig
-  |- .eslintignore
-  |- .eslintrc.jsx
-  |- .gitignore
-  |- .huskrc
-  |- .travis.yml
-  |- index.html
-  |- Makefile 
-  |- package.json 
-  |- prettierrc 
-  |- README.org 
-  |- tsconfig.json 
+  |-- vite.config.base.ts | common vite config |
+  |-- vite.config.dev.ts | development vite config |
+  |-- vite.config.prod.ts | production vite config |
+  |-- vite.config.staging.ts | staging vite config |
+  |-- vite.config.test.ts | test vite config |
+  |- src | all development files|
+  |-- api | interactive with backend api|
+  |-- components | common components |
+  |-- i18n | internationalization |
+  |-- interface | common interface defined |
+  |-- layouts | common layout |
+  |-- lib | thired party library |
+  |-- pwa | progress web application for future|
+  |-- routes | entire project router|
+  |-- schemas | graphQL schema |
+  |-- store | status cache |
+  |-- theme | theme for entire project |
+  |-- utils | common util functions|
+  |-- views | all pages |
+  |-- App.tsx | page components entry |
+  |-- css.d.ts | css configuration|
+  |-- main.tsx  | main entry |
+  |-- react-app-env.d.ts | |
+  |-- react-i18next.d.ts ||
+  |-- reportWeb.tsx ||
+  |-- setupTests.tsx | unit test entry |
+  |-- vite-env.d.ts | vite environment configuration |
+  |- static | static file directory |
+  |-- iconfont | icon font library by UI customize |
+  |- .editorconfig | edit common rule |
+  |- .eslintignore | eslint ignore |
+  |- .eslintrc.js | eslint configuration |
+  |- .gitignore | git ignore file |
+  |- .huskrc | husk configuration for commit and push |
+  |- .travis.yml | continuous integration for production |
+  |- index.html | entry for project |
+  |- Makefile | comiple config by make |
+  |- package.json | project dependency packages and version info |
+  |- prettierrc | rules for js, ts |
+  |- README.org | project document |
+  |- tsconfig.json | typescript compiler options |
 
 
 ** Environment variables
