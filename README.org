@@ -1,8 +1,8 @@
 [[file:http://10.88.223.155:9093/iLock.png]]
-* SmartRocket iLockVerifier Fronend
+* SmartRocket iLockVerifier Frontend
 ** Description
-This project is for iLockVerifier and use key skills: react17, vite2, mobx6,
-axios, typescript,react testing library
+This project is for iLockVerifier and key skills: React17, Vite2, Mobx6,
+Axios, Typescript,React Testing Library
 
 Note: we should add unit test for each component, all test files are
 suffix with '.test.'.
