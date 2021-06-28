@@ -5,7 +5,7 @@ This project is for iLockVerifier and key skills: React17, Vite2, Mobx6,
 Axios, Typescript,React Testing Library
 
 Note: we should add unit test for each component, all test files are
-suffix with '.test.'.
+suffixed with '.test.'.
 ** Stucture
   | configuration | API environment and vite compile environment |
   |--- env | API environment directory |
@@ -19,7 +19,7 @@ suffix with '.test.'.
   |--- vite.config.prod.ts | production vite config |
   |--- vite.config.staging.ts | staging vite config |
   |--- vite.config.test.ts | test vite config |
-  | src | all development files |
+  | src | soruce files |
   |--- api | interactive with backend API |
   |--- components | common components |
   |--- i18n | internationalization |
@@ -29,10 +29,10 @@ suffix with '.test.'.
   |--- pwa | progress web application for future |
   |--- routes | entire project router |
   |--- schemas | graphQL schema |
-  |--- store | status cache |
-  |--- theme | theme for entire project |
-  |--- utils | common util functions |
-  |--- views | all pages |
+  |--- store | data status cache |
+  |--- theme | the theme for entire project |
+  |--- utils | common function tools |
+  |--- views | pages directory |
   |--- App.tsx | page components entry |
   |--- css.d.ts | css configuration |
   |--- main.tsx  | main entry |
@@ -40,7 +40,7 @@ suffix with '.test.'.
   |--- reportWeb.tsx | prepare for future |
   |--- setupTests.tsx | unit test entry |
   |--- vite-env.d.ts | vite environment configuration |
-  | static | static file directory |
+  | static | static file |
   |--- iconfont | icon font library by UI customize |
   | .editorconfig | edit common rule |
   | .eslintignore | eslint ignore |

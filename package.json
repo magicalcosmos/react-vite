@@ -4,7 +4,7 @@
   "author": "smartrocket@ticpsh.com",
   "productName": "SmartRocket iLockverifier",
   "deployStatus": "release",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "local": "npm run clear && cross-env RUN_ENV=local vite --open  --port 3000 --config ./configuration/vite.config.base.ts",
     "r:dev": "npm run clear && cross-env RUN_ENV=rdev vite --open --port 3000 --config ./configuration/vite.config.dev.ts",
