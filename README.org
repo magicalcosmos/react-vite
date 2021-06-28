@@ -8,7 +8,7 @@ suffix with '.test.'.
 ** Project stucture
   | configuration | API environment and vite compile environment |
   |-- env | API environment directory |
-  |---- prod.env.js | production environment API configuration |
+  |------ prod.env.js | production environment API configuration |
   |---- rdev.env.js | staging environment API configuration |
   |---- rstaging.env.js | staging environment API configuration |
   |---- rtest.env.js | test environment API configuration |
