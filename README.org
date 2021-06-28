@@ -1,5 +1,6 @@
+[[file:https://www.ticpsh.com/web/uploads/image/20200805/w66H87YqlOZvA95NzQ12ye1g6031Qh06.png]]
 
-* [[file:https://www.ticpsh.com/web/uploads/image/20200805/w66H87YqlOZvA95NzQ12ye1g6031Qh06.png]] SmartRocket iLockVerifier Fronend
+* SmartRocket iLockVerifier Fronend
 ** Description
 This project is for iLockVerifier and use key skills: react17, vite2, mobx6,
 axios, typescript,react testing library
