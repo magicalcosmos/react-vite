@@ -1,13 +1,12 @@
 import loadable from '@loadable/component';
 import { RouteConfig } from 'react-router-config';
-// import Layout from '~@/layouts';
-import Home from '~@/views/Home';
+import Layout from '~@/layouts';
 import About from '~@/views/About';
 const routesConfig: RouteConfig = [
   {
     path: '/',
     exact: true,
-    component: Home,
+    component: Layout,
     routes: [
       {
         path: '/',
