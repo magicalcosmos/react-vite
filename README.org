@@ -1,5 +1,4 @@
-[[file:https://www.ticpsh.com/web/uploads/image/20200805/w66H87YqlOZvA95NzQ12ye1g6031Qh06.png]]
-
+[[file:http://10.88.223.155:9093/iLock.png]]
 * SmartRocket iLockVerifier Fronend
 ** Description
 This project is for iLockVerifier and use key skills: react17, vite2, mobx6,
@@ -26,7 +25,7 @@ suffix with '.test.'.
   |--- i18n | internationalization |
   |--- interface | common interface defined |
   |--- layouts | common layout |
-  |--- lib | thired party library |
+  |--- lib | third party library |
   |--- pwa | progress web application for future |
   |--- routes | entire project router |
   |--- schemas | graphQL schema |
